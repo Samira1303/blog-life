@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.qara {
+  background-color: black;
+  height: 30px;
+}
+
+.flexbar {
+  display: flex;
+  justify-content: space-between;
+  height: inherit;
+}
+.flexbar_left {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+}
+.flexbar_left_list_link {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexbar_left_list_link a {
+  color: white;
+}
+.flexbar_right {
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexbar_right a {
+  color: white;
+}
+
+.container {
+  height: 100vh;
+}
+.container .bloglife {
+  height: 100vh;
+}
+.container .bloglife_textbox {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .bloglife_textbox_jane h1 {
+  font: 19px;
+  font-weight: 700;
+}
+.container .bloglife_textbox_world h3 {
+  font-size: 14px;
+}
+.container .bloglife_textbox_world h3 span {
+  background-color: black;
+  color: white;
+  padding: 5px 7px;
+}
+.container .bloglife_blogbox {
+  background-image: url(assets/jane.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.container .bloglife_blogbox_minibox {
+  display: flex;
+  align-items: flex-start;
+  justify-content: end;
+  flex-direction: column;
+  height: 400px;
+  color: white;
+}
+.container .bloglife_blogbox_minibox .life {
+  color: black;
+}
+.container .bloglife_blogbox_minibox_janes h1 {
+  font-size: 33px;
+}
+.container .bloglife_blogbox_minibox_fashion h3 {
+  font-size: 47px;
+}
+.container .bloglife_blogbox_minibox_life {
+  color: black;
+}
+
+@media (max-width: 700px) {
+  .flexbar {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */

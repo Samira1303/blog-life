@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.qara{
+    background-color: black;
+    height: 30px;
+ }
+
+
+    .flexbar {
+        display: flex;
+        justify-content: space-between;
+        height: inherit;
+
+        &_left {
+            display: flex;
+            justify-content: space-between;
+            // background-color: rgb(93, 139, 179);
+            height: 30px;
+
+            &_list {
+                &_link {
+                    height: inherit;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                &_link a {
+                    color: white;
+                }
+            }
+        }
+
+        &_right {
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &_right a {
+            color: white;
+        }
+    }
+
+
+        
+    
+
+
+.container {
+    height: 100vh;
+
+    .bloglife {
+        height: 100vh;
+
+        &_textbox {
+            height: 200px;
+            // background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            &_jane h1 {
+                font: 19px;
+                font-weight: 700;
+            }
+
+            &_world h3 {
+                font-size: 14px;
+            }
+            &_world h3 span {
+                background-color: black;
+                color: white;
+                padding: 5px 7px;
+            }
+        }
+
+        &_blogbox{
+            background-image: url(assets/jane.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 600px;
+
+            &_minibox{
+                display: flex;
+                align-items: flex-start;
+                justify-content: end;
+                flex-direction: column;
+                height: 400px;
+                color: white;
+
+                .life{
+                    color: black;
+                 }
+
+                &_janes h1{
+                    font-size: 33px;
+                 }
+
+                &_fashion h3{
+                    font-size: 47px;
+                 }
+                //  button rengi teyin etmek
+
+                &_life{
+                    color: black;
+                 }
+             }
+         }
+    }
+}
+
+
+@media  (max-width: 700px){
+    .flexbar{
+        display: none;
+     }
+ }
